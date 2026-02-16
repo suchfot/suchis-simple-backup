@@ -5,7 +5,7 @@
  * Description: Einfaches Backup (Dateien + optional DB) als ZIP nach wp-content/backups inkl. Download-Links.
  * Version: 1.2.4
  * Author: Christian Suchanek
- * Author URI: https://www.derperformer.com/projekte/wordpress-plugins/suchis-simple-backup/
+ * Author URI: https://www.derperformer.com/wordperessplugin/suchis-simple-backup-dein-wordpress-backup-plugin/
  * Requires at least: 6.0
  * Requires PHP: 8.0
  * License: GPLv2 or later
