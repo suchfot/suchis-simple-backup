@@ -2,8 +2,8 @@
 
 Ein schlankes und benutzerfreundliches WordPress-Plugin für vollständige Website-Backups.
 
-**Version:** 1.2.3  
-**Lizenz:** GPLv2 oder später  
+**Version:** 1.2.4
+**Lizenz:** GPLv2 oder später
 **Autor:** Christian Suchanek
 
 ---
@@ -299,9 +299,9 @@ Vollständige Lizenz: [GPL 2.0](https://www.gnu.org/licenses/gpl-2.0.html)
 
 ## 📞 Support und Kontakt
 
-**Autor:** Christian Suchanek  
-**Website:** [www.derperformer.com](https://www.derperformer.com)  
-**E-Mail:** [christian.suchanek@gmail.com](mailto:christian.suchanek@gmail.com)  
+**Autor:** Christian Suchanek
+**Website:** [www.derperformer.com](https://www.derperformer.com)
+**E-Mail:** [christian.suchanek@gmail.com](mailto:christian.suchanek@gmail.com)
 **GitHub:** [derperformer/suchis-simple-backup](https://github.com/derperformer/suchis-simple-backup)
 
 ---
