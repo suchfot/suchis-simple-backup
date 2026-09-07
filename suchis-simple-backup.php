@@ -14,10 +14,6 @@
  * Hinweis: Dieses Plugin wurde mit Unterstützung von KI generiert.
  */
 
-use ZipArchive;
-use RecursiveIteratorIterator;
-use RecursiveDirectoryIterator;
-
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -120,6 +116,14 @@ function Ssbhf_Run_backup(): void
         wp_die('Forbidden', 403);
     }
     check_admin_referer('ssbhf_run');
+
+    // Backups großer Sites brauchen mehr als das PHP-Default-Zeitlimit (30s)
+    if (function_exists('set_time_limit')) {
+        @set_time_limit(0);
+    }
+    if (function_exists('ignore_user_abort')) {
+        ignore_user_abort(true);
+    }
 
     Ssbhf_Ensure_dirs();
 
